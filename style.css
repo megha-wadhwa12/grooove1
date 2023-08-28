@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+padding: 0%;
+margin: 0%;
+}
+
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header,footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+
+}
+
+
+header>img{
+    width: 100px;
+}
+
+#welcomediv{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png");
+    background-size: 100%;
+    height: 600px;
+    padding: 0px;
+    background-repeat: no-repeat;
+
+
+}
+
+.container{
+    height: 600px;
+    padding: 5%;
+}
+
+h1{
+    font-size: 40px;
+    /* margin-top: 15px; */
+    padding-top: 150px;
+}
+
+button{
+    background-color: #27AE60;
+   padding: 5px;
+   color: white;
+   font-size: medium;
+   border: none;
+   cursor: pointer;
+   width: 180px;
+   height: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 32px;
+}
+
+table{
+    margin: 50px auto;
+    width: auto;
+}
+table,tr,td,th{
+    border: 2px solid lightgray;
+    padding: 20px;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+th{
+    background-color: #27AE60;
+    color: white;
+}
+
+tr:hover{
+    background-color: rgba(211,211,211,0.468);
+}
+
+#quantity{
+    width: 40px;
+}
+
+#bottomdiv{
+    margin-top: 50px;
+    height: 200px;
+}
+
+#thankstext{
+    display: none;
+}
+
+footer {
+    color: white;
+}
+
+#fruitsimg{
+   width: 100px;
+   /* height: 150px; */
+}
+
+#buy{
+    padding: 15px 20px;
+    background-color: #36C673;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+#message{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+#mobile{
+    padding: 5px;
+    text-align: center;
+}
